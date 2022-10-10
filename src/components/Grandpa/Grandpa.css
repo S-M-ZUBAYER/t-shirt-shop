@@ -1,0 +1,13 @@
+.Root,
+.Root-child section {
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.Root-child {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}

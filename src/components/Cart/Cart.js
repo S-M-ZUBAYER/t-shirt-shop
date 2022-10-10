@@ -10,7 +10,7 @@ const Cart = ({ cart, removeHandler }) => {
         message = "oh!! you already buy some things"
     }
     return (
-        <div>
+        <div className='cart-section'>
             <h1 className={`bold ${cart.length === 0 ? 'orange' : 'purple'}`}>Order Summery</h1>
             <p className={cart.length === 0 ? 'blue' : 'green'}>Selected product:-{cart.length}</p>
             {cart.map(tShirt => <p>{tShirt.name} <button onClick={() => { removeHandler(tShirt) }}> X</button></p>)}

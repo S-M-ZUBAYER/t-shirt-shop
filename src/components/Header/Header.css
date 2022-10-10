@@ -1,0 +1,12 @@
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: larger;
+}
+
+nav {
+    height: 40px;
+    padding: 20px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+}
